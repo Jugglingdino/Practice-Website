@@ -1,0 +1,98 @@
+body {
+	background-color: #8EE4AF;
+	color: #05386B;
+	font-size: 16px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav {
+	background-color: #379683;
+	color: #EDF5E1;
+}
+
+.nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 0px;
+
+}
+
+.nav ul li{
+	padding: 16px;
+	text-align: center;
+	font-size: 1.2rem;
+	border-bottom: 2px solid #05386B;
+	transition: background-color 0.3s;
+	
+}
+
+.nav ul li:hover {
+	background-color: #05386B;
+}
+
+h3 {
+	text-align: center;
+	padding: 0px;
+}
+
+p {
+	text-align: center;
+}
+
+.image { 
+	border-radius: 15px 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 75%;
+	min-width: 30%;
+	height: auto;
+	padding: 5px;
+}
+
+.image :hover {
+	border: 10px solid  #05386B; 
+}
+
+
+.image-area {
+	background-image:url('header.png');
+	background-color:black;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 75%;
+	border-radius: 15px 50px;	
+}
+
+.image-text {
+	text-align: center;
+	background-color:  #05386B;
+	color: #EDF5E1;
+	font-size: 2.5rem;
+	/*max-width: 1020px;*/
+	margin: 0px auto;
+	padding: 0px 16px;
+}
+
+@media screen and (min-width: 700px) {
+	.nav ul{
+		text-align: left;
+	}
+	.nav ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		border-right: 2px solid #05386B;
+	}
+	.project {
+		width: 50%;
+    	float: left;
+	}
+}
